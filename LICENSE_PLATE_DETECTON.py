@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 import pytesseract
 
-image=cv2.imread('number2.jpg') #provide image here
+image=cv2.imread('Images/number2.jpg') #provide image here
 
 #image=imutils.resize(image,width=500)
 image = cv2.resize(image,(620,480))
